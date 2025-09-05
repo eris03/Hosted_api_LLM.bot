@@ -82,7 +82,7 @@ async def history():
     conn.close()
     return [{"question": q, "answer": a, "timestamp": t} for q, a, t in rows]
 anant patil
-2:54 PM
+
 import os
 import sqlite3
 import requests
