@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  background-color: #f0f2f5;
-}
-Pragyan AI and DS School
-3:09 PM
 import React, { useState, useRef, useEffect } from "react";
 
 function formatTime(date) {
@@ -153,3 +147,17 @@ const styles = {
     fontSize: 16,
     padding: "0.5rem 1rem",
     borderRadius: 20,
+    border: "1px solid #ccc",
+    outline: "none",
+  },
+  button: {
+    marginLeft: 12,
+    padding: "0.5rem 1.5rem",
+    borderRadius: 20,
+    border: "none",
+    backgroundColor: "#4B9CE2",
+    color: "#fff",
+    fontSize: 16,
+    cursor: "pointer",
+  },
+};
